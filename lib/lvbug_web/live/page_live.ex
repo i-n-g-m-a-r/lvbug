@@ -1,5 +1,6 @@
 defmodule LvbugWeb.PageLive do
   use LvbugWeb, :live_view
+  alias LvbugWeb.EmailInput
 
   @impl true
   def mount(_params, _session, socket) do
